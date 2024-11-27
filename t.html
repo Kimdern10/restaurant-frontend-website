@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tailwindcss/output.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="relative container mx-auto p-3">
+      
+        <div class="flex items-center justify-between">
+      
+          <div class="w-28 text-white">
+          </div>
+          
+          <div class="hidden space-x-6 md:flex">
+            <a href="#" class="hover:text-orange-400 text-black uppercase font-semibold">HOME</a>
+            <a href="index.html" class="hover:text-orange-400 text-black uppercase font-semibold">MENU</a>
+            <a href="about.html" class="hover:text-orange-400 text-black uppercase font-semibold">ABOUT US</a>
+            <a href="#" class="hover:text-orange-400 text-black uppercase font-semibold">CONTACT US</a>
+            <a href="#" class="hover:text-orange-400 text-black uppercase font-semibold">DISHES</a>
+          </div>
+          
+          <a
+            href="sign.html"
+    
+          >
+        
+          
+          
+  
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+        
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+          <a href="#" class="hover:text-orange-400 text-white uppercase font-serif">HOME</a>
+          <a href="#" class="hover:text-orange-400 text-white uppercase font-serif">MENU</a>
+          <a href="#" class="hover:text-orange-400 text-white uppercase font-serif">ABOUT</a>
+          <a href="#" class="hover:text-orange-400 text-white uppercase font-serif">CONTACT US</a>
+          <a href="#" class="hover:text-orange-400 text-white uppercase font-serif">DISHES</a>
+          </div>
+        </div>
+      </nav>
+  </div>
+  <div id="fater-about-us">
+    <div id="Son-about us">
+  
+        <div class="min-h-screen bg-no-repeat bg-cover bg-blend-color-burn" style="background-image: url(img/cuisine-food-india-indian-wallpaper-thumb\ \(4\).jpg);" id="firstSondiv">
+            <!-- <div class="flex flex-col items-center justify-center py-60">
+                <p class="w-80 text-white text-sm ml-4">
+                  <div class="container mx-auto mb-40">
+                    <h1 class="text-6xl flex-col font-bold text-white">
+                      Welcome to
+                      <br>
+                      Nirvelle Restraunt
+                    </h1>
+                    <p class="text-white w-full max-w-2xl my-8">Lorem ipsum ds harum repudiandae aspernatur.
+                    </p >
+                    <a href="" class="bg-green-500 text-white px-4 py-2 rounded-full">
+                    order now
+                    </a>
+                    </div> 
+                    </div> -->
+                </p>
+            </div>
+        </div>
+
+
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logoicon.png" type="image/x-icon">
+    <title id="home_title">Home</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="tailwindcss/output.css">    
+</head>
+<body class="bg-slate-100">
+    <div id="loadingScreen" class="bg-customYellow w-full h-screen fixed z-100 bg-center bg-no-repeat" style="background-image: url('https://i.postimg.cc/T2Dhm38J/loading.gif');"></div>
+    <header class=" p-4 shadow md:flex md:items-center md:justify-between w-full fixed z-50 duration-100">
+        <div class="flex justify-between items-center">
+            <a href="index.html" class="md:mx-0 mx-6 md:ml-10">
+                <img src="img/logo.png" alt="Food House Logo" class="h-14 w-auto object-contain">
+            </a>
+            <ion-icon name="menu" class="text-3xl md:hidden" onclick="menu(this)"></ion-icon>
+        </div>
+
+        <nav class="navbar " id="navbarr">
+            <ul class="font-custom3 font-medium md:flex md:items-center md:static absolute z-[-1] md:z-auto w-full left-0 md:py-0 py-4 text-center md:opacity-100 opacity-0 bg-slate-50 md:bg-transparent transition-opacity duration-300">
+                <li class="mx-4 my-6 md:my-0 group">
+                    <a href="index.html" class="active text-base  px-4 py-2 rounded-lg hover:text-gray-950 relative" id="home">Home
+                        <span class="block h-1 bg-current absolute bottom-0 left-0 w-full transition-all duration-[300ms] transform scale-x-100  origin-left"></span>
+                    </a>
+                </li>
+                <li class="mx-4 my-6 md:my-0 group">
+                    <a href="menu.html" class="text-base  px-4 py-2 rounded-lg hover:text-gray-950 relative" id="menu">Menu
+                        <span class="block h-1 bg-transparent group-hover:bg-current absolute bottom-0 left-0 w-full transition-all duration-[300ms] transform scale-x-0 group-hover:scale-x-100 origin-left"></span>
+                    </a>
+                </li>
+                <li class="mx-4 my-6 md:my-0 group">
+                    <a href="about.html" class="text-base  px-4 py-2 rounded-lg hover:text-gray-950 relative" id="about">About
+                        <span class="block h-1 bg-transparent group-hover:bg-current absolute bottom-0 left-0 w-full transition-all duration-[300ms] transform scale-x-0 group-hover:scale-x-100 origin-left"></span>
+                    </a>
+                </li>
+                <li class="mx-4 my-6 md:my-0 group">
+                    <a href="contact.html" class="text-base px-4 py-2 rounded-lg hover:text-gray-950 relative" id="contact">Contact
+                        <span class="block h-1 bg-transparent group-hover:bg-current absolute bottom-0 left-0 w-full transition-all duration-[300ms] transform scale-x-0 group-hover:scale-x-100 origin-left"></span>
+                    </a>
+                </li>
+                <li class="mx-4 my-6 md:my-0 group">
+                    <a href="order.html" class="text-base px-4 py-2 rounded-lg text-gray-950 relative" id="order">Order
+                        <span class="block h-1 bg-transparent group-hover:bg-current absolute bottom-0 left-0 w-full transition-all duration-[300ms] transform scale-x-0 group-hover:scale-x-100 origin-left"></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="headerbuttons flex items-center gap-x-1">
+            <a  class="inline-block py-3 px-3 uppercase text-xl font-bold cursor-pointer tracking-wider" id="cartBTN">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="register.html" class="inline-block  rounded-full py-3 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider headerbutton relative border-2" id="registerBTN">Sign Up</a>
+            <a href="login.html" class="inline-block  rounded-full py-3 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider headerbutton relative border-2" id="loginBTN">Log in</a>
+            <div class="dropdown-profile relative inline-block">
+                <div class="flex items-center pr-4 justify-start cursor-pointer border-3 border-gray-950 rounded-profile hover:bg-gray-100 duration-300 w-40" name="dropdown-menu" id="sub-menu-button" onclick="subMenu(this)">
+                    <i class="fas fa-user-circle text-4xl pl-2 pt-1 w-12 h-12"></i>
+                    <a class="text-black text-sm font-semibold ml-2 pb-1" id="userFirstNameDisplay">USER</a>
+                </div>
+                
+                <div class="absolute bg-white p-2 m-3 mt-7 w-44 md:right-3 ml-3 rounded-lg animate-roll_down duration-300 opacity-0 pointer-events-none" id="sub-menu">
+                    <ul class="text-gray-950 text-m font-semibold">
+                        <li class="p-3 hover:pl-6 hover:bg-gray-950 hover:text-white cursor-pointer"><a>
+                            <i class="fas fa-user-circle mr-3"></i>
+                            Edit Profile</a>
+                        </li>
+                        <li class="p-3 hover:pl-6 hover:bg-gray-950 hover:text-white cursor-pointer"><a>
+                            <i class="fas fa-shopping-basket mr-3"></i>
+                            Orders</a>
+                        </li>
+                        <hr />
+                        <li class="p-3 hover:pl-6 hover:bg-gray-950 hover:text-white cursor-pointer" id="logout-subbtn"><a>
+                            <i class="fas fa-sign-out-alt mr-3"></i>
+                            Log out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <div id="overlay" class="fixed inset-0 bg-gray-950 bg-opacity-50 z-50 hidden"></div>
+    <!-- Side Panel Start -->
+    <div id="sidePanel" class="fixed top-0 sm:w-[500px] w-[340px] h-screen bg-white duration-500 z-100 flex flex-col left-full shadow-lg ml-10 md:ml-0">
+    <!-- Fixed Header -->
+    <div class="flex-none">
+        <h1 class="font-custom3 font-medium text-base mt-6 ml-8">CART</h1>
+        <hr class="w-full h-[0.5px] bg-black rounded-lg mt-6 mb-0">
+    </div>
+    <!-- Scrollable Content -->
+    <div class="flex-grow overflow-auto">
+        <ul id="listcart" class="listcart gap-2 grid grid-row-5">
+            
+            
+        </ul>
+    </div>
+    <!-- Fixed Footer (Checkout Button) -->
+    <hr class="w-full h-[0.5px] bg-black rounded-lg mt-0">
+    <div class="flex-none flex justify-center mb-9 items-center relative mt-7">
+        <button id="total" class="flex items-center checkout w-full h-12 mx-10 justify-center bg-black rounded-profile text-white font-semibold">0</button>
+    </div>
+</div>
+<!-- Side Panel End -->
+    <!-- Home -->
+    <section class="home pl-8" id="home">
+        <div class="swiper mySwiper home_slider md:mt-0 ">
+            <div class="swiper-wrapper wrapper mt-14 md:mt-36 lg:mt-12 xl:mt-0">
+                <div class="md:grid md:grid-cols-2 md:items-center md:flex-wrap md:gap-2 swiper-slide mt-24 md:mt-0" id="slider">
+                    <div class="content md:pl-16 lg:pl-36">
+                        <span class="text-2xl font-semibold text-orange-700 mb-6">Our New Dish</span>
+                        <h3 class="text-6xl font-semibold mt-2 mb-2 font-custom3">New Spicy Pasta</h3>
+                        <p class="text-xl text-gray-400 leading-8 mb-6">Spicy pasta is a delicious and easy recipe that you can make in less than 30 minutes. It's perfect for a quick weeknight dinner or a special occasion.</p>
+                        <a href="order.html" class="ordernow-cards rounded-md py-2 px-8 bg-slate-700 text-white">Order Now</a>
+                    </div>
+                    <div class="image size-12/12 md:pt-10 mt-0 md:mt-0 -ml-6 md:ml-0">
+                        <img src="img/pasta.png" style="filter: drop-shadow(10px 10px 30px rgba(0,0,0,0.3));" alt="">
+                    </div>
+                </div>
+                <div class="md:grid md:grid-cols-2 md:items-center md:flex-wrap md:gap-2 swiper-slide mt-24 md:mt-0" id="slider">
+                    <div class="content md:pl-16 lg:pl-36">
+                        <span class="text-2xl font-semibold text-orange-700 mb-6">Our New Noodle</span>
+                        <h3 class="text-6xl font-semibold mt-2 mb-2 font-custom3">Hot Spicy Noodle</h3>
+                        <p class="text-xl text-gray-400 leading-8 mb-6">Hot Spicy Noodle is a delicious and easy recipe that you can make in less than 30 minutes. It's perfect for a quick weeknight dinner or a special occasion.</p>
+                        <a href="order.html" class="ordernow-cards rounded-md py-2 px-8 bg-slate-700 text-white">Order Now</a>
+                    </div>
+                    <div class="image size-12/12 mt-0 md:mt-0 -ml-6 md:ml-0">
+                        <img src="img/noodles.png" style="filter: drop-shadow(10px 10px 30px rgba(0,0,0,0.3));" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- Menu -->
+    <section class="menu md:mt-5 lg:mt-0" id="menucards">
+        <section class=" section_container banner container md:mx-auto sm:mx-auto grid gap-4 auto-rows-banner pl-3 pr-3 md:flex mb-16 ">
+            <div class="banner-card p-2 gap-2 bg-green-200 shadow-xl cursor-pointer" style="display: grid; grid-template-columns: 2fr 2fr; border-radius: 1rem;" id="banner-card1">
+                <div class=" p-2 pl-4">
+                    <h1 class="text-xl font-bold">TRY IT OUT TODAY</h1>
+                    <p class="text-lg mt-4">Best Meat Burgers <br> From Wide Range</p>
+                </div>
+                <div class="banner_card_image size-12/12 mt-4 mr-3 sm:mt-0 md:mt-4 overflow-hidden sm:overflow-visible">
+                    <img src="img/banner1.png" alt="" class="sm:size-11/12 md:size-auto sm:pb-4 md:pb-0 object-cover sm:object-contain">
+                </div>
+            </div>
+            <div class="banner-card p-2 gap-2 bg-red-300 shadow-xl cursor-pointer" style="display: grid; grid-template-columns: 2fr 2fr; border-radius: 1rem;" id="banner-card2">
+                <div class=" p-2 pl-4">
+                    <h1 class="text-xl font-bold">BEST FRIED RICE</h1>
+                    <p class="text-lg mt-4">Try New Mongolian <br> Fried Rice</p>
+                </div>
+                <div class="banner_card_image image size-12/12 mt-4 mr-3 sm:mt-0 md:mt-4 overflow-hidden sm:overflow-visible">
+                    <img src="img/banner2.png" alt="" class="sm:size-11/12 md:size-auto sm:pb-4 md:pb-0 object-cover sm:object-contain">
+                </div>
+            </div>
+            <div class="banner-card p-2 gap-2 bg-yellow-100 shadow-xl cursor-pointer" style="display: grid; grid-template-columns: 2fr 2fr; border-radius: 1rem;" id="banner-card3">
+                <div class=" p-2 pl-4">
+                    <h1 class="text-xl font-bold">SHAKE YOUR CHOCO SHAKE</h1>
+                    <p class="text-lg mt-4 mb-2">Cravings Filled with Chocolate and Caremal</p>
+                </div>
+                <div class="banner_card_image image size-12/12 mt-6 mr-3 sm:mt-0 md:mt-4 overflow-hidden sm:overflow-visible">
+                    <img src="img/banner3.png" alt="" class="sm:size-11/12 md:size-auto sm:pb-4 md:pb-0 object-cover sm:object-contain">
+                </div>
+            </div>
+        </section>
+    </section>
+    <!--menu end-->
+    <!-- menulist -->
+    <section class="menu_container" id="menulist">
+        <h3 class=" max-w-fit m-auto shadow-lg mb-4 py-2 px-8 font-semibold text-2xl font-custom2 bg-orange-500 rounded-lg text-white">Always Tasty</h3>
+        <div class="h-auto md:h-20 items-center justify-center">
+        <h2 class="text-6xl font-medium font-custom text-center text-red-950 leading-tight auto-type1" style="text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;" id="auto-type"></h2>
+        </div>
+        <p class="  text-center px-6 mt-5 text-lg font-medium md:px-32 mb-6">
+            At Food House, we don’t just serve food; we orchestrate a symphony of flavors that dance on your taste buds. 
+            Our cozy bistro is where passion meets palate, where every dish tells a story—a story of love, tradition, and culinary artistry.
+        </p>
+        <div class="menu_list grid gap-y-8 gap-x-4 md:grid md:grid-cols-3 md:px-12 ">
+            <div class="menu_card py-8 px-4 hover:shadow-xl transition duration-300 shadow-md">
+                <div class="menu_img max-w-64 m-auto hover:drop-shadow-lg mb-6 mt-5 md:max-w-72">
+                    <img src="img/m4.png" alt="" style="filter: drop-shadow(10px 10px 30px rgba(0,0,0,0.3));">
+                </div>
+                <div class="menu_content">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Zinger Burger</h3>
+                    <p class="text-gray-400 font-medium mb-6 leading-7 text-center">Zinger Burger is more than just a fast food item; it is a culinary icon that has captured the hearts of burger enthusiasts worldwide.</p>
+                </div>
+                <div class="order_now flex items-center justify-center">
+                    <a href="order.html" class="ordernow rounded-md py-2 px-8 bg-red-700 text-white">Order Now</a>
+                </div>
+            </div>
+            <div class="menu_card py-8 px-4 hover:shadow-xl transition duration-300 shadow-md">
+                <div class="menu_img max-w-80 m-auto hover:drop-shadow-lg mb-6 mt-5">
+                    <img src="img/m2.png" alt="" style="filter: drop-shadow(10px 10px 30px rgba(0,0,0,0.3));">
+                </div>
+                <div class="menu_content">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Double Chiken Burger</h3>
+                    <p class="text-gray-400 font-medium mb-6 leading-7 text-center">Indulge in Perfection: Sink your teeth into our Double Chicken Burger, where crispy meets succulent.</p>
+                </div>
+                <div class="order_now flex items-center justify-center">
+                    <a href="order.html" class="ordernow rounded-md py-2 px-8 bg-red-700 text-white">Order Now</a>
+                </div>
+            </div>
+            <div class="menu_card py-8 px-4 hover:shadow-xl transition duration-300 shadow-md">
+                <div class="menu_img max-w-72 m-auto hover:drop-shadow-lg mb-6 mt-5">
+                    <img src="img/m5.png" alt="" style="filter: drop-shadow(10px 10px 30px rgba(0,0,0,0.3));">
+                </div>
+                <div class="menu_content">
+                    <h3 class="text-xl font-semibold mb-4 text-center">Sizzling Beef Burger</h3>
+                    <p class="text-gray-400 font-medium mb-6 leading-7 text-center">Get ready for a flavor explosion! Our Sizzling Maverick Burger is not your ordinary beef patty—it’s a symphony of bold tastes and juicy perfection.</p>
+                </div>
+                <div class="order_now flex items-center justify-center">
+                    <a href="order.html" class="ordernow rounded-md py-2 px-8 bg-red-700 text-white">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menulist end -->
+    <div class="flex justify-center">
+        <hr class="border-t border-zinc-500 mt-10 mb-8 px-8 w-11/12">
+    </div>
+    <!--explore menu-->
+    <section class="exploremenu">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-2 overflow-hidden">
+            <div class="exloreimg lg:ml-10 lg:my-auto">
+                <img src="img\viewmore.png" alt="" class="size-max px-8 md:mx-auto" style="filter: drop-shadow(0px 0px 30px rgba(136, 136, 135, 0.4))">
+            </div>
+            <div>
+                <div class="h-auto items-center justify-center">
+                    <h1 class="auto-type2 lg:pt-20 mt-8 lg:mt-5 px-5 md:px-0 text-center lg:text-left font-custom3 font-bold text-3xl md:text-4xl text-red-950" id="auto-type1"></h1>
+                </div>
+                <p class="text-gray-400 font-medium mb-6 leading-7 text-center lg:text-left lg:pr-16 px-8 lg:px-0 mt-3 lg:mt-5">Welcome to FoodHouse, where culinary excellence meets a warm and inviting atmosphere. Our diverse menu features a delightful fusion of classic and contemporary dishes, each crafted with the freshest ingredients and utmost care. Whether you're in the mood for a hearty meal or a light snack, our offerings cater to every palate and preference. Join us for an unforgettable dining experience that will leave you craving for more.</p>
+                <a href="menu.html" class="max-w-fit m-auto mb-4 py-2 px-8 font-semibold text-2xl font-custom2  rounded-lg  bg-customYellow hover:bg-customyellowhover duration-300 text-gray-800 flex items-center justify-center lg:justify-start lg:ml-0 lg:mt-8" id="viewmore">View More</a>
+            </div>
+        </div>
+    </section>
+    <!--explore menu end-->
+    <div id="overlay3" class="fixed inset-0 bg-opacity-50 hideeb"></div>
+    <!--Popup message-->
+    <div id="warningpopup-panel" class="popup_panel z-100  w-[500px] h-[300px] bg-white border-2 fixed top-[30%] left-[40%] text-center pt-7 px-[30px] pb-[30px] flex-col justify-center items-center rounded-xl hidden">
+        <img src="img/warning.png" alt="tick" class="w-28 h-28 mx-auto mt-[-80px] block">
+        <h2 class="text-xl font-bold mt-3 mb-2">Warning</h2>
+        <p class="text-base mb-5 font-medium">Please note that our website is currently under development. You may encounter incomplete sections and limited functionality as we work to bring you the best experience.</p>
+        <button id="close_popupwarning" onclick="closepopup()" class="close-popup shadow-md px-6 py-2 rounded-profile bg-red-600 hover:bg-red-900 duration-300  text-white text-base font-semibold">Close</button>
+    </div>
+    <!-- footer -->
+    <footer class="footer px-4 0 mt-16" style="background-image: url('https://i.ibb.co/VWsBT2J/headerbg.png');">
+        <div class="container mx-auto py-14 px-6">
+            <div class="grid md:grid-cols-12 grid-cols-1 gap-7 md:mt-14">
+                <div class="lg:col-span-4 col-span-12 md:mt-[-36px] mt-0">
+                    <a href="#" class="md:mx-0 mx-6 md:ml-10 mt-0">
+                        <img src="img/logo.png" alt="Food House Logo" class="h-14 w-auto object-contain">
+                    </a>
+                    <p class="text-gray-800 mt-4 font-semibold md:mt-6 md:text-base2">Food House is a cozy bistro that serves delicious and healthy food. Our menu is inspired by the culinary traditions of the Mediterranean and the Middle East.</p>
+                    <ul class="social-icons flex mt-12 gap-5 text-3xl">
+                        <li><a href="mailto:ayeshirunda1234@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope hover:text-white duration-200"></i></a></li>
+                        <li><a href="https://dev.to/pererayesh17" target="_blank" rel="noopener noreferrer"><i class="fas fa-blog hover:text-white duration-200"></i></a></li>
+                        <li><a href="https://www.instagram.com/ayesh_i_/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram hover:text-white duration-200"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ayeshperera03/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in hover:text-white duration-200"></i></a></li>
+                    </ul>
+                </div>
+                <div class="lg:col-span-2 md:col-span-4 col-span-12">
+                    <a href="#" class="tracking-wide font-custom2 font-semibold text-2xl mb-7 md:text-3xl text-gray-800">Contact Info</a>
+                    <ul class="font-medium text-gray-800">
+                        <li class="mt-4 md:mt-6 font-medium md:text-base2"><a href="https://wa.me/94715574562" target="_blank" rel="noopener noreferrer">+94 (71) 557-4562</a></li>
+                        <li class="md:text-base2 md:mt-3"><a href="mailto:ayeshirunda1234@gmail.com" target="_blank" rel="noopener noreferrer">ayeshirunda1234@gmail.com</a></li>
+                        <li class="md:text-base2 md:mt-3"><a href="https://www.google.com/maps/search/?api=1&query=11+Galle+Road,+Kaluthara" target="_blank" rel="noopener noreferrer">11 Galle Road, Kaluthara</a></li>
+                    </ul>
+                </div>
+                <div class="lg:col-span-3 md:col-span-4 col-span-12 md:ml-8">
+                    <a href="#" class="tracking-wide md:font-semibold md:text-2xl md:mb-7 md:font-custom2 text-gray-800">Opening Hours</a>
+                    <ul class="font-medium md:text-base2 text-gray-800 mt-4 md:mt-6">
+                        <li class="md:mt-3"><a href="#">Monday-Friday: 09:00-21:00</a></li>
+                        <li class="md:mt-3"><a href="#">Saturday-Sunday: 15:00-00:00</a></li>
+                    </ul>
+                </div>
+                <div class="lg:col-span-3 md:col-span-4 col-span-12 shadow-xl p-7 md:mt-[-28px]">
+                    <p class="text-gray-800 text-2xl font-semibold font-custom2 mb-6">Subscribe to our newsletter</p>
+                    <div class="input-wrapper grid gap-2">
+                        <input type="text" class="email w-full border border-gray-300 py-2 rounded-sm pl-4" placeholder="Email">
+                        <button class="subscribe max-w-fit mb-2 mt-2 py-2 px-10 font-semibold text-lg font-custom2 bg-white rounded-lg text-gray-800">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <p class="text-gray-800 mt-4 text-center md:text-center">© 2024 Food House. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- footer end -->
+    <script type="module" src="auth-state.js"></script>
+    <script src="cart.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+  
+       
+    </div>
+  </div>
+     
+</body>
+</html>
+    
